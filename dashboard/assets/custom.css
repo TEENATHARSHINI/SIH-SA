@@ -1,0 +1,48 @@
+/* Custom CSS for White Text */
+
+/* Main text color */
+body, h1, h2, h3, h4, h5, h6, p, span, div, label, input, select, textarea, button {
+    color: white !important;
+}
+
+/* Table text */
+table, th, td {
+    color: white !important;
+}
+
+/* Input fields */
+.stTextInput > div > div > input, 
+.stSelectbox > div > div > div > div > div {
+    color: #333 !important; /* Keep input text dark for readability */
+}
+
+/* Sidebar text */
+.css-1d391kg, .css-1d391kg p {
+    color: white !important;
+}
+
+/* Menu items */
+.css-1aumxhk, .css-1aumxhk p, .css-1aumxhk label {
+    color: white !important;
+}
+
+/* Make sure all text in the main content area is white */
+.main .block-container {
+    color: white !important;
+}
+
+/* Override any dark text colors */
+[data-testid="stText"], 
+[data-testid="stMarkdownContainer"], 
+[data-testid="stHeader"] {
+    color: white !important;
+}
+
+/* Make sure links are visible */
+a {
+    color: #4dabf7 !important; /* Light blue for links */
+}
+
+a:hover {
+    color: #74c0fc !important; /* Lighter blue on hover */
+}
